@@ -1,0 +1,12 @@
+{
+  "common": {
+    "project-root": "soot_src",
+    "sidbase": "build/sidbase.bin",
+    "log": "warn"
+  },
+  "compiler": {
+    "runtime": "local",
+    "repl": true,
+    "search-paths": [".", "scripts", "src", "examples", "soot_src"]
+  }
+}

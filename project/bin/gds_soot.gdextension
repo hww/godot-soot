@@ -1,0 +1,12 @@
+[configuration]
+
+entry_symbol = "gds_soot_init"
+compatibility_minimum = "4.3"
+reloadable = true
+
+[libraries]
+
+windows.editor.x86_64 = "./windows/gds_soot.windows.template_release.x86_64.dll"
+windows.release.x86_64 = "./windows/gds_soot.windows.template_release.x86_64.dll"
+linux.editor.x86_64 = "./linux/libgds_soot.linux.template_release.x86_64.so"
+linux.release.x86_64 = "./linux/libgds_soot.linux.template_release.x86_64.so"

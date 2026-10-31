@@ -35,6 +35,12 @@ compile_commands.json
 *.includes
 *.idb
 *.exp
+*.dll
+
+# Project-local Godot binaries
+project/bin/Godot_v4.5-stable_linux.x86_64
+project/bin/Godot_v4.5-stable_linux.x86_64.zip
+project/bin/windows/
 
 # Other stuff
 *.log
@@ -50,3 +56,10 @@ compile_commands.json
 # Cmake
 cmake-build*
 CMakeUserPresets.json
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+/CMakeCache.txt
+/CMakeFiles/
+/cmake_install.cmake
+/Makefile
